@@ -42,8 +42,14 @@
     </style>
   </head>
   <body>
-    <h1>Slider and Button Example</h1>
+    <h1>跳蛋震动幅度 Vibration Strength</h1>
     <input type="range" min="1" max="100" value="50" class="slider">
-    <button>Click Me</button>
+    <button>开始震动 Start Vibrating</button>
+    <script>
+      const myButton = document.getElementById("myButton");
+      myButton.addEventListener("click", function() {
+        alert("Success!");
+      });
+    </script>
   </body>
 </html>
